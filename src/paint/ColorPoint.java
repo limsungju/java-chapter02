@@ -2,7 +2,14 @@ package paint;
 
 public class ColorPoint extends Point {
 	private String color;
-
+	
+	public ColorPoint(int x, int y, String color) {
+		//setX(x);
+		//setY(y);
+		super(x, y);
+		this.color = color;
+	}
+	
 	public String getColor() {
 		return color;
 	}
