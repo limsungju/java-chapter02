@@ -1,4 +1,6 @@
-package paint;
+package kr.co.itcen.paint.shape;
+
+import kr.co.itcen.i.Drawable;
 
 public abstract class Shape implements Drawable {
 	private String lineColor;

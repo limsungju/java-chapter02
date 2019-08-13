@@ -1,4 +1,6 @@
-package paint;
+package kr.co.itcen.text;
+
+import kr.co.itcen.i.Drawable;
 
 public class GraphicText implements Drawable {
 	private String text;

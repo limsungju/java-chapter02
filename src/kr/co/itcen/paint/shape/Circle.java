@@ -1,4 +1,4 @@
-package paint;
+package kr.co.itcen.paint.shape;
 
 public class Circle extends Shape {
 	private int x;

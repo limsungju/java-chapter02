@@ -1,4 +1,4 @@
-package paint;
+package kr.co.itcen.point;
 
 public class ColorPoint extends Point {
 	private String color;

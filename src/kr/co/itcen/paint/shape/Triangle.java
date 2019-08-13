@@ -1,14 +1,15 @@
-package paint;
+package kr.co.itcen.paint.shape;
 
-public class Rect extends Shape {
+public class Triangle extends Shape {
+	// private Point[] points = new Point[3];
 	private int x1;
 	private int y1;
 	private int x2;
 	private int y2;
 	private int x3;
 	private int y3;
-	private int x4;
-	private int y4;
+
+	
 
 	public int getX1() {
 		return x1;
@@ -57,17 +58,10 @@ public class Rect extends Shape {
 	public void setY3(int y3) {
 		this.y3 = y3;
 	}
-	
-	public int getX4() {
-		return x4;
-	}
 
-	public void setX4(int x4) {
-		this.x4 = x4;
-	}
-	
 	@Override
 	public void draw() {
-		System.out.println("사각형을 그렸습니다.");
+		System.out.println("삼각형을 그렸습니다.");
 	}
+
 }
